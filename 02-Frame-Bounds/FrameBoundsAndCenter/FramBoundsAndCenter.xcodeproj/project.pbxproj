@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D9DE5D12099180D001A3710 /* ViewControllerMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DE5D02099180D001A3710 /* ViewControllerMargin.swift */; };
+		3D9DE5D3209918D6001A3710 /* ViewControllerRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DE5D2209918D6001A3710 /* ViewControllerRainbow.swift */; };
 		D82346511E3726AF00A0B61D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82346501E3726AF00A0B61D /* AppDelegate.swift */; };
 		D82346531E3726AF00A0B61D /* ViewControllerGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82346521E3726AF00A0B61D /* ViewControllerGrid.swift */; };
 		D82346561E3726AF00A0B61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82346541E3726AF00A0B61D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3D9DE5D02099180D001A3710 /* ViewControllerMargin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMargin.swift; sourceTree = "<group>"; };
+		3D9DE5D2209918D6001A3710 /* ViewControllerRainbow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRainbow.swift; sourceTree = "<group>"; };
 		D823464D1E3726AF00A0B61D /* FramBoundsAndCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FramBoundsAndCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82346501E3726AF00A0B61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D82346521E3726AF00A0B61D /* ViewControllerGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGrid.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D82346501E3726AF00A0B61D /* AppDelegate.swift */,
 				D82346521E3726AF00A0B61D /* ViewControllerGrid.swift */,
 				3D9DE5D02099180D001A3710 /* ViewControllerMargin.swift */,
+				3D9DE5D2209918D6001A3710 /* ViewControllerRainbow.swift */,
 				D82346541E3726AF00A0B61D /* Main.storyboard */,
 				D82346571E3726AF00A0B61D /* Assets.xcassets */,
 				D82346591E3726AF00A0B61D /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				3D9DE5D12099180D001A3710 /* ViewControllerMargin.swift in Sources */,
 				D82346531E3726AF00A0B61D /* ViewControllerGrid.swift in Sources */,
 				D82346511E3726AF00A0B61D /* AppDelegate.swift in Sources */,
+				3D9DE5D3209918D6001A3710 /* ViewControllerRainbow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

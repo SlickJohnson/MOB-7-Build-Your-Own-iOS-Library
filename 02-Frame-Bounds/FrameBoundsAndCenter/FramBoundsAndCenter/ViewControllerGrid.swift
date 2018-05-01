@@ -8,24 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewControllerGrid: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let w = view.bounds.width / 3
-        
-        for i in 0 ... 9 {
-            let x = CGFloat(i % 3) * w // 0,1,2,0,1,2...
-            let y = CGFloat(i / 3) * w
+        let gridSize = CGSize(width: 8, height: 8)
+        let w = view.bounds.width / gridSize.width
+        let h = view.bounds.height / gridSize.height / 2
+        let totalSquares = Int(w * h)
+        for i in 0...totalSquares {
+            let x = CGFloat(i % 9) * w
+            let y = CGFloat(i / 9) * h
             let r = CGRect(x: x, y: y, width: w, height: w)
-            let box = UIView(frame: r.insetBy(dx: 2, dy: 2))
+            let box = UIView(frame: r)
             view.addSubview(box)
             
-            let hue = 1 / 10 * CGFloat(i)
+            let color: UIColor = i % 2 == 0 ? .white : .black
             
-            let c = UIColor(hue: hue, saturation: 1, brightness: 1, alpha: 1)
-            box.backgroundColor = c
+            box.backgroundColor = color
         }
     }
 
@@ -33,7 +32,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
